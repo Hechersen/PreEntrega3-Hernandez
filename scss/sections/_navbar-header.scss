@@ -1,0 +1,20 @@
+.barra-navegacion a {
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.barra-navegacion a:hover {
+    background-color: rgb(160, 213, 228);
+    border-radius: 10px;
+}
+
+.barra-navegacion button:hover {
+    background-color: rgb(160, 213, 228);
+}
+
+.barra-navegacion .pag-actual {
+    background-color: rgb(160, 213, 228);
+    border-radius: 10px;
+    color: white;
+}
