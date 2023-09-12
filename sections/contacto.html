@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Inicio</title>
+    <title>Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body class="bg-white">
@@ -15,7 +15,7 @@
         <h1 class="text-center">CREEDENCE CLEARWATER REVIVAL</h1>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid barra-navegacion">
-                <a class="navbar-brand m-2 p-2" href="./index.html"><img src="./resources/CCR.png" alt="logo banda"></a>
+                <a class="navbar-brand" href="../index.html"><img src="../resources/CCR.png" alt="logo banda"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -23,41 +23,42 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav barra-navegacion">
-                        <a class="nav-link pag-actual" href="./index.html">INICIO</a>
-                        <a class="nav-link" href="./sections/historia.html">HISTORIA</a>
-                        <a class="nav-link" href="./sections/discografia.html">DISCOGRAFÍA</a>
-                        <a class="nav-link" href="./sections/galeria.html">GALERÍA</a>
-                        <a class="nav-link" href="./sections/contacto.html">CONTACTO</a>
+                        <a class="nav-link" href="../index.html">INICIO</a>
+                        <a class="nav-link" href="./historia.html">HISTORIA</a>
+                        <a class="nav-link" href="./discografia.html">DISCOGRAFÍA</a>
+                        <a class="nav-link" href="./galeria.html">GALERÍA</a>
+                        <a class="nav-link pag-actual" href="./contacto.html">CONTACTO</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="d-flex container principal">
-        <div class="card m-4" style="width: 28rem;">
-            <img class="card-img-top" src="./resources/card img.jpg" alt="imagen banda">
-            <div class="card-body text-center">
-                <h5 class="card-title">MERCHANDISING</h5>
-                <p class="card-text">Visitanos para encontrar los mejores articulos relacionados a esta legendaria banda
-                    de rock!</p>
-                <a href="#" class="btn btn-primary">TIENDA ONLINE</a>
-            </div>
-        </div>
-        <section>
-            <p class="m-4">En este sitio web podés dar un recorrido por la historia de esta grandísima banda de rock la
-                cual fue no solo una de las mejores y mas grandes de su época sino que también una gran influencia para
-                miles de artistas en el futuro.</p>
-            <p class="m-4">Te invitamos a que conozcas nuestro sitio y puedas aprender sobre la discografía de este
-                grupo y sus grandes éxitos, así como tambien ver fotos de sus integrantes y conciertos en vivo y, por
-                qué no, dejarnos tu recomendación para seguir creciendo y mejorando y hacer de este sitio algo mucho
-                mejor!</p>
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/album/5N6DllSsuia7LnQUZ5UGuX?utm_source=generator" width="100%"
-                height="352" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
-        </section>
+    <main class="d-flex justify-content-center text-center">
+        <form action="#" method="get">
+            <ul class="list-unstyled m-4 formulario">
+                <li class="m-4"><label for="Nombre">Nombre</label></li>
+                <input type="text" placeholder="Nombre" name="identidad" class="form-control w-100">
+                <li class="m-4"><label for="Edad">Edad</label></li>
+                <input type="number" min="0" max="120" name="Edad" class="form-control text-center" placeholder="0">
+                <li class="m-4"><label for="E-Mail">E-Mail (*)</label></li>
+                <input type="email" placeholder="E-Mail (Requerido)" name="Dirección de Correo" required
+                    class="form-control w-100">
+                <li class="m-4"><label for="Genero">Género</label></li>
+                <li>
+                    <div class="m-2">MASCULINO</div>
+                    <input type="radio" name="Genero" value="Masculino">
+                    <div class="m-2">FEMENINO</div>
+                    <input type="radio" name="Genero" Value="Femenino">
+                </li>
+                <li class="m-4"><label for="Comentarios">COMENTARIOS</label></li>
+                <input type="text" class="form-control w-100">
+                <input type="submit" class="submit m-3">
+            </ul>
+        </form>
     </main>
+    <section>
+        <h3 class="text-center">NO DUDES EN DEJARNOS TU COMENTARIO!</h3>
+    </section>
     <footer>
         <section class="d-flex justify-content-center m-4">
             <nav class="navbar bg-body-tertiary">
