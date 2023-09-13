@@ -19,7 +19,7 @@ p {
     background-color: #a0d5e4;
     border-radius: 10px; }
 
-button:hover {
+.burger:hover {
   background-color: #a0d5e4; }
 
 .barra-navegacion .pag-actual {
@@ -85,6 +85,13 @@ button:hover {
   .main-historia {
     flex-wrap: wrap;
     justify-content: center; } }
+
+.carousel {
+  max-width: 800px; }
+
+@media (max-width: 850px) {
+  .carousel {
+    max-width: 450px; } }
 
 /*!
    * Bootstrap  v5.3.1 (https://getbootstrap.com/)
