@@ -15,12 +15,11 @@ p {
   color: black;
   font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  .barra-navegacion a:hover {
+    background-color: #a0d5e4;
+    border-radius: 10px; }
 
-.barra-navegacion a:hover {
-  background-color: #a0d5e4;
-  border-radius: 10px; }
-
-.barra-navegacion button:hover {
+button:hover {
   background-color: #a0d5e4; }
 
 .barra-navegacion .pag-actual {
@@ -32,7 +31,7 @@ p {
   height: 600px; }
 
 .animacion-disco:hover {
-  transform: scale(1.3); }
+  transform: scale(1.2); }
 
 .container {
   display: grid;
@@ -79,7 +78,7 @@ p {
     flex-wrap: wrap;
     justify-content: center; } }
 
-.navbar-brand img:hover {
+.navbar-footer img:hover {
   transform: scale(1.8); }
 
 /*!
