@@ -27,6 +27,9 @@ p {
   border-radius: 10px;
   color: white; }
 
+#carouselExampleFade {
+  max-width: 900px; }
+
 .animacion-disco:hover {
   transform: scale(1.2); }
 
