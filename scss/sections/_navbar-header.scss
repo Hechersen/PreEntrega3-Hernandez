@@ -7,15 +7,14 @@
         background-color: rgb(160, 213, 228);
         border-radius: 10px;
     }
+    .burger:hover {
+        background-color: rgb(160, 213, 228);
+    }
+    .pag-actual {
+        background-color: rgb(160, 213, 228);
+        border-radius: 10px;
+        color: white;
+    }
 }
 
-.burger:hover {
-    background-color: rgb(160, 213, 228);
-}
 
-
-.barra-navegacion .pag-actual {
-    background-color: rgb(160, 213, 228);
-    border-radius: 10px;
-    color: white;
-}
