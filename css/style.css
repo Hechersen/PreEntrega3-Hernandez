@@ -19,7 +19,7 @@ p {
     background-color: #a0d5e4;
     border-radius: 10px; }
 
-.burger:hover {
+.barra-navegacion .burger:hover {
   background-color: #a0d5e4; }
 
 .barra-navegacion .pag-actual {
